@@ -1,0 +1,24 @@
+.drum-pads{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+#drum-machine{
+  display: flex;
+  justify-content: center;
+  margin-top: 33vh;
+}
+
+.drum-pad{
+  border: red solid 1px;
+  width: 100px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#drum-machine{
+  border: red solid 1px;
+}
+#dispaly{
+  border: red solid 1px;
+}
